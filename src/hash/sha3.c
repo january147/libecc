@@ -13,8 +13,8 @@
  *  This software is licensed under a dual BSD and GPL v2 license.
  *  See LICENSE file at the root folder of the project.
  */
-#include "../utils/utils.h"
-#include "sha3.h"
+#include <libecc/utils/utils.h>
+#include <libecc/hash/sha3.h>
 
 /* Init function depending on the digest size */
 void _sha3_init(sha3_context *ctx, u8 digest_size)

@@ -13,11 +13,11 @@
  *  This software is licensed under a dual BSD and GPL v2 license.
  *  See LICENSE file at the root folder of the project.
  */
-#include "fp.h"
-#include "fp_add.h"
-#include "fp_mul.h"
-#include "fp_mul_redc1.h"
-#include "fp_montgomery.h"
+#include <libecc/fp/fp.h>
+#include <libecc/fp/fp_add.h>
+#include <libecc/fp/fp_mul.h>
+#include <libecc/fp/fp_mul_redc1.h>
+#include <libecc/fp/fp_montgomery.h>
 
 void fp_add_monty(fp_t out, fp_src_t in1, fp_src_t in2)
 {

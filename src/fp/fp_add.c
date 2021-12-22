@@ -13,8 +13,8 @@
  *  This software is licensed under a dual BSD and GPL v2 license.
  *  See LICENSE file at the root folder of the project.
  */
-#include "fp_add.h"
-#include "../nn/nn_add.h"
+#include <libecc/fp/fp_add.h>
+#include <libecc/nn/nn_add.h>
 
 /* Compute out = in1 + in2 mod p */
 void fp_add(fp_t out, fp_src_t in1, fp_src_t in2)

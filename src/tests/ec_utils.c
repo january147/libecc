@@ -14,7 +14,7 @@
  *  See LICENSE file at the root folder of the project.
  */
 
-#include "../libsig.h"
+#include <libecc/tests/libsig.h>
 
 /* Some mockup code to be able to compile in CRYPTOFUZZ mode although
  * setjmp/longjmp are used.

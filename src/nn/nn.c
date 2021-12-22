@@ -14,7 +14,7 @@
  *  See LICENSE file at the root folder of the project.
  */
 #define NN_CONSISTENCY_CHECK
-#include "nn.h"
+#include <libecc/nn/nn.h>
 
 /*
  * Except otherwise specified, all functions accept *initialized* nn.

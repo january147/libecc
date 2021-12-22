@@ -13,7 +13,7 @@
  *  This software is licensed under a dual BSD and GPL v2 license.
  *  See LICENSE file at the root folder of the project.
  */
-#include "fp_mul_redc1.h"
+#include <libecc/fp/fp_mul_redc1.h>
 
 /*
  * Perform Montgomery multiplication.

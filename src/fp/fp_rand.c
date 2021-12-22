@@ -14,8 +14,8 @@
  *  See LICENSE file at the root folder of the project.
  */
 
-#include "fp_rand.h"
-#include "../nn/nn_rand.h"
+#include <libecc/fp/fp_rand.h>
+#include <libecc/nn/nn_rand.h>
 
 int fp_get_random(fp_t out, fp_ctx_src_t ctx)
 {

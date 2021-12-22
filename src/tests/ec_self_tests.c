@@ -13,9 +13,9 @@
  *  This software is licensed under a dual BSD and GPL v2 license.
  *  See LICENSE file at the root folder of the project.
  */
-#include "../external_deps/print.h"
-#include "../utils/utils.h"
-#include "../libsig.h"
+#include <libecc/external_deps/print.h>
+#include <libecc/utils/utils.h>
+#include <libecc/tests/libsig.h>
 
 /* Some mockup code to be able to compile in CRYPTOFUZZ mode although
  * setjmp/longjmp are used.

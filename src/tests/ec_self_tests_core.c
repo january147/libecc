@@ -13,11 +13,11 @@
  *  This software is licensed under a dual BSD and GPL v2 license.
  *  See LICENSE file at the root folder of the project.
  */
-#include "ec_self_tests_core.h"
-#include "../utils/utils.h"
-#include "../external_deps/rand.h"
-#include "../external_deps/time.h"
-#include "../external_deps/print.h"
+#include <libecc/tests/ec_self_tests_core.h>
+#include <libecc/utils/utils.h>
+#include <libecc/external_deps/rand.h>
+#include <libecc/external_deps/time.h>
+#include <libecc/external_deps/print.h>
 
 
 static int ec_gen_import_export_kp(ec_key_pair *kp, const ec_params *params,
